@@ -3,7 +3,7 @@ import images from "./images.js";
 const galleryContainer = document.querySelector(".js-gallery");
 const closeModal = document.querySelector(".lightbox__button");
 const modalWindow = document.querySelector(".js-lightbox");
-const overlay = document.querySelector(".lightbox__overlay");
+const overlay = document.querySelector(".lightbox__content");
 const modalImg = document.querySelector(".lightbox__image");
 
 const imagesMarkup = creatImagesMarkup(images);
